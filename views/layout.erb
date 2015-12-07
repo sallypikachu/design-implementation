@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Foundation Funtimes</title>
+
+  <link rel="stylesheet" href="/stylesheets/foundation.min.css">
+  <link rel="stylesheet" href="/stylesheets/style.css">
+</head>
+<body>
+  <div class="top-bar">
+    <div class="top-bar-left">
+      <ul class="dropdown menu" data-dropdown-menu>
+        <li class="menu-text">Launch Academy</li>
+      </ul>
+    </div>
+    <div class="top-bar-right">
+      <ul class="menu">
+        <li><a href="#">Learn on Campus</a></li>
+        <li><a href="#">Learn Online</a></li>
+        <li><button type="button" class="button pink">Apply</button></li>
+      </ul>
+    </div>
+  </div>
+
+<div class="row columns">
+  <%= yield %>
+</div>
+
+  <script src="/javascripts/vendor/jquery.js"></script>
+  <script src="/javascripts/foundation.min.js"></script>
+  <script>
+  $(document).foundation();
+  </script>
+</body>
+</html>

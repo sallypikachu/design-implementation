@@ -1,0 +1,81 @@
+.top-bar {
+  background-color: #37becc;
+  padding-left: 1rem;
+}
+
+.top-bar li {
+ background-color: #37becc;
+ color: white;
+}
+
+.top-bar a {
+ background-color: #37becc;
+ color: white;
+}
+
+
+.columns {
+  padding: 0px;
+}
+
+.rows {
+  padding: 0px;
+}
+
+.text-center {
+  padding: 2rem 10rem;
+}
+
+.header {
+  background: url('/images/background-1.jpg') repeat center 20% scroll;
+  color: white;
+}
+
+.header h1 {
+  margin: 0px;
+  color: white;
+}
+
+ul {
+  list-style: none;
+  list-style-type: none;
+}
+
+.hire-a-developer {
+  background: url('/images/background-2.jpg') no-repeat center center scroll;
+  color: white;
+  padding: 5rem 10rem;
+}
+
+.pink {
+  background-color: #ed1a7b;
+}
+
+.green {
+  background-color: #84ce15;
+}
+
+.blue {
+  color: #37becc;
+}
+
+div.hiring-partners {
+  background-color: #1B2124;
+  color: white;
+}
+
+.callout.secondary {
+  background-color: #272C2D;
+  text-align: center;
+  color: #777777;
+  margin: .5rem;
+}
+
+.contact {
+  background-color: #E5F3F5;
+  padding: .5rem;
+}
+
+.input {
+
+}
